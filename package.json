@@ -1,0 +1,18 @@
+{
+  "name": "flake",
+  "version": "0.0.1",
+  "description": "Fake data shouldn't be difficult.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ws/flake.git"
+  },
+  "scripts": {
+    "minify": "uglifyjs lib/flake.js -m 'sort,toplevel' -c --source-map lib/flake.map.js -o lib/flake.min.js; expr `(stat -f%z lib/flake.js)` - `(stat -f%z lib/flake.min.js)`"
+  },
+  "author": "Will Smidlein <will@willsmidlein.com> (http://willsmidlein.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ws/flake/issues"
+  },
+  "homepage": "https://github.com/ws/flake"
+}
