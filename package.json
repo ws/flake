@@ -1,6 +1,6 @@
 {
   "name": "flake",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fake data shouldn't be difficult.",
   "repository": {
     "type": "git",
@@ -18,5 +18,6 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "mocha": "^1.20.1"
-  }
+  },
+  "main": "lib/flake.js"
 }
